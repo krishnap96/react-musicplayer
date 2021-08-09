@@ -1,0 +1,797 @@
+
+body {
+  background-color: white;
+  font-family:'Ubuntu', sans-serif;
+  margin: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+ 
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+  -webkit-border-radius: 20px;
+  border-radius: 4px;
+  
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  border-radius: 10px;
+  background-image: linear-gradient(rgb(44, 44, 226),lightcoral);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+background: rgba(19, 52, 240, 0.4); 
+}
+
+.header .front-img
+{
+ 
+  max-width: auto;
+  display: block;
+  height: auto;
+  
+}
+.centered
+{
+  width: auto;
+  margin:18px;
+  color:#070606;
+  background-color:white;
+  text-align:left;
+  margin-left: 8%;
+  font-size: 35px;
+}
+
+.cusicon{
+  padding-right:135px; 
+}
+
+/* Float  columns side by side */
+.column {
+  float: left;
+  width: 100%;
+  padding: 0 10px;   /*cards size*/
+  
+}
+
+.container-s
+{
+  padding:25%;   /*fix cards */ 
+  float: left;
+  margin: 0px;
+  background-image: linear-gradient(rgb(50, 153, 223),rgb(209, 116, 116),rgb(50, 153, 223),lightcoral,rgb(50, 153, 223),rgb(235, 163, 96));
+ 
+}
+
+.fa {font-size:50px;}
+ 
+
+
+.fa {
+ 
+  font-size: 20px;
+ margin:10px;
+
+
+}
+.fa:hover {
+  opacity: 1.7;
+  text-decoration: none;
+  color: blue;
+}
+
+.fa-facebook {
+  background: white;
+ color:black;
+ text-decoration: none;
+}
+.fa-twitter
+{  background: white;
+  color:black;
+   text-decoration:none;
+}
+.fa-google
+{
+  background: white;
+  color:black;
+   text-decoration:none;
+}
+.fa-google:hover
+{
+  color:red;
+  text-decoration: none;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.signup
+{
+   padding:10px;
+}
+.container-signup
+{
+  padding: 10px;
+  margin: 70px;
+}
+.musicbuzztag
+{
+color: black;
+  text-decoration: none;
+}
+.musicbuzztag:hover{
+  color:black;
+  text-decoration: none;
+}
+.active
+{
+  color:#6887ff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.active:hover
+{
+text-decoration: none;
+}
+.aboutnav
+{
+  color:black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+.aboutnav:hover
+{
+  text-decoration: none;
+  color:#6887ff;
+}
+
+.signnav
+{
+  color:black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+.signnav:hover
+{
+  text-decoration: none;
+  color:#6887ff;
+}
+.loginnav
+{
+  color:black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+.loginnav:hover
+{
+  text-decoration: none;
+  color:#6887ff;
+}
+.navbar
+{
+  height: auto;
+  font-size: 20px;
+ margin-bottom: 2px;
+ cursor: pointer;
+ 
+}
+
+.navbar-brand 
+{
+  font-size: 40px;
+  margin-left: 50px;
+  font-weight:bold;
+  cursor: pointer;
+}
+
+.btn
+{
+  font-size: 15px;
+} 
+.outline-success
+{
+  font-size:20px; 
+}
+.form-control
+{
+  font-size: 15px;
+}
+.image-banner
+{
+  font-size: 20px;
+  width: 30%;
+
+}
+.img-fluid
+{
+  max-width: 100%;
+  height: auto;
+ border-radius: 10%;
+}
+.btn{
+  font-size: 20px;
+  
+}
+.centered
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-decoration: none;
+  opacity: 1;
+}
+
+.ccaption
+{
+  color: white;
+  font-size:80px;
+  text-align: center;
+  padding: 100px;
+  height: auto;
+}
+.carousel-caption
+{
+  opacity: 0.7;
+  height: auto;
+}
+
+
+
+.contentxt
+{
+  text-align: center;
+  margin-top: 100px;
+  font-family: Andale Mono, monospace;
+  font-size: 20px;
+  letter-spacing: 2px;
+  
+}
+.albumtxt
+{
+  letter-spacing: 15px;
+  font-weight: bolder; 
+}
+.albumtxt1
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+
+}
+.img-wrapper {
+  position: relative;
+ }
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.img-overlay:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+.btn-outline-dark
+{
+color:white;
+border-color: white;
+font-size: 20px;
+padding: 10px;
+width: 150px;
+border-radius: 0;
+}
+
+.btn-outline-dark:hover
+{
+  background-color: white;
+color:black;
+border-color: white;
+transition: 0.5s ease-in-out;
+
+}
+.img-title
+{
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 20%;
+  letter-spacing: 8px;
+}
+.carouselExampleIndicators
+{
+  width: 70%;
+}
+.carousel{
+  background: #2f4357;
+  margin-top: 20px;
+}
+.carousel-item{
+  text-align: center;
+  min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+.bs-example{
+margin: 20px;
+}
+.card
+{
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  border: none;
+ 
+}
+.home
+{
+  cursor: pointer;
+}
+.card:hover 
+{
+   opacity: 0.9;
+   text-decoration: none;
+ cursor: pointer; 
+ transform: scale(1.1); 
+}
+.card-deck
+{
+  width: 60%;  
+  align-content: center;
+  padding: 3px;
+  margin: auto;
+  text-decoration: none;
+}
+.cardd
+{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  border: none;
+}
+.cardd:hover
+{
+  cursor: pointer; 
+  opacity: 0.9;
+}
+img {
+  display:inline;
+  
+}
+
+.thumbnail {
+  position: relative;
+ margin-left: 0%;
+  padding: 0%;
+}
+
+.caption {
+  
+ color: white;
+ 
+}
+h1 {
+  font-family: arial;
+  margin: 0;
+  padding-left: 20px;
+  line-height: 50px;
+}
+
+.player {
+  float: right;
+  width: 400px;
+  font-family: arial;
+  margin-top: 400px;
+  margin-right: 400px;
+ 
+}
+
+.tracklist {
+  float: right;
+  width: 100%;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.tracklist li {
+  background-image: linear-gradient(red,orange);
+  padding: 20px 20px;
+}
+
+.tracklist li:hover {
+  font-weight: bold;
+ cursor: pointer;
+ color: white;
+  
+}
+
+.buttons {
+  float: left;
+  width: 100%;
+}
+
+.buttons button {
+  float: left;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  background: white;
+}
+
+.buttons button:hover {
+  background-image: linear-gradient(red,orange);
+  font-weight: bold;
+}
+
+.timebar {
+  float: left;
+  width: 100%;
+  height: 30px;
+  background: black;
+  color: white;
+}
+
+.bar {
+  float: left;
+}
+
+.time {
+  float: right;
+  text-align: center;
+  line-height: 30px;
+  width: 100px;
+}
+.img
+{
+  padding: 200px;
+  margin-left: auto;
+  margin-right: 200px;
+}
+.tracklistw {
+  float: right;
+  width: 100%;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.tracklistw li {
+  background-image: linear-gradient(rgb(70, 124, 241),hsl(209, 58%, 77%));
+  padding: 20px 20px;
+}
+.tracklistw li:hover {
+  font-weight: bold;
+ cursor: pointer;
+ color: white; 
+}
+.playerw {
+  float: right;
+  width: 400px;
+  font-family: arial;
+  margin-top: 200px;
+  margin-right: 400px;
+ 
+}
+.buttonsw {
+  float: left;
+  width: 100%;
+}
+
+.buttonsw button {
+  float: left;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  background: white;
+}
+
+.buttonsw button:hover {
+  background-image: linear-gradient(rgb(70, 124, 241),hsl(209, 58%, 77%));
+  font-weight: bold;
+}
+.tracklistp {
+  float: right;
+  width: 100%;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.tracklistp li {
+  background-image: linear-gradient(#80808088,grey);
+  padding: 20px 20px;
+}
+.tracklistp li:hover {
+  font-weight: bold;
+ cursor: pointer;
+ color: white; 
+}
+.playerp {
+  float: right;
+  width: 400px;
+  font-family: arial;
+  margin-top: 200px;
+  margin-right: 400px;
+ 
+}
+.buttonsp {
+  float: left;
+  width: 100%;
+}
+
+.buttonsp button {
+  float: left;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  background: white;
+}
+
+.buttonsp button:hover {
+  background-image: linear-gradient(rgba(105, 86, 86, 0.466),#645a5a);
+  font-weight: bold;
+}
+.tracklisth {
+  float: right;
+  width: 100%;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.tracklisth li {
+  background-image: linear-gradient(#b1a8a8,#8b8bec);
+  padding: 20px 20px;
+}
+.tracklisth li:hover {
+  font-weight: bold;
+ cursor: pointer;
+ color: white; 
+}
+.playerh {
+  float: right;
+  width: 400px;
+  font-family: arial;
+  margin-top: 200px;
+  margin-right: 400px;
+ 
+}
+.buttonsh {
+  float: left;
+  width: 100%;
+}
+
+.buttonsh button {
+  float: left;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  background: white;
+}
+
+.buttonsh button:hover {
+  background-image: linear-gradient(black,blue);
+  font-weight: bold;
+}
+
+.playerr {
+  float: right;
+  width: 400px;
+  font-family: arial;
+  margin-top: 200px;
+  margin-right: 400px;
+ 
+}
+.buttonsr {
+  float: left;
+  width: 100%;
+}
+
+.buttonsr button {
+  float: left;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  background: white;
+}
+
+.buttonsr button:hover {
+  background-image: linear-gradient(#f3a2a2,#1e65eb);
+  font-weight: bold;
+}
+.tracklistr {
+  float: right;
+  width: 100%;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.tracklistr li {
+  background-image: linear-gradient(#f3a2a2,#1e65eb);
+  padding: 20px 20px;
+}
+.tracklistr li:hover {
+  font-weight: bold;
+ cursor: pointer;
+ color: white; 
+}
+.playerr {
+  float: right;
+  width: 400px;
+  font-family: arial;
+  margin-top: 200px;
+  margin-right: 400px;
+ 
+}
+.buttonsr {
+  float: left;
+  width: 100%;
+}
+
+.buttonsr button {
+  float: left;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  background: white;
+}
+
+.buttonsr button:hover {
+  background-image: linear-gradient(#f3a2a2,#1e65eb);
+  font-weight: bold;
+}
+.playersc {
+  float: right;
+  width: 400px;
+  font-family: arial;
+  margin-top: 200px;
+  margin-right: 400px;
+ 
+}
+.buttonssc {
+  float: left;
+  width: 100%;
+}
+
+.buttonssc button {
+  float: left;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  background: white;
+}
+
+.buttonssc button:hover {
+  background-image: linear-gradient(hsla(0, 0%, 50%, 0.164),#e0d8d82d);
+  font-weight: bold;
+}
+.tracklistsc {
+  float: right;
+  width: 100%;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.tracklistsc li {
+  background-image: linear-gradient(#4e4a4adc,#e0d8d82d);
+  padding: 20px 20px;
+}
+.tracklistsc li:hover {
+  font-weight: bold;
+ cursor: pointer;
+ color: white; 
+}
+
+.buttonssc {
+  float: left;
+  width: 100%;
+}
+
+.buttonssc button {
+  float: left;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  background: white;
+}
+
+.buttonssc button:hover {
+  background-image: linear-gradient(#808080b0,#e0d8d82d);
+  font-weight: bold;
+}
+.playerd {
+  float: right;
+  width: 400px;
+  font-family: arial;
+  margin-top: 200px;
+  margin-right: 400px;
+ 
+}
+.buttonsd {
+  float: left;
+  width: 100%;
+}
+
+.buttonsd button {
+  float: left;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  background: white;
+}
+
+.buttonsd button:hover {
+  background-image: linear-gradient(#4141f7,grey);
+  font-weight: bold;
+}
+.tracklistd {
+  float: right;
+  width: 100%;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.tracklistd li {
+  background-image: linear-gradient(#4141f7,#d4cece);
+  padding: 20px 20px;
+}
+.tracklistd li:hover {
+  font-weight: bold;
+ cursor: pointer;
+ color: white; 
+}
+
+.buttonsd {
+  float: left;
+  width: 100%;
+}
+
+.buttonsd button {
+  float: left;
+  width: 100px;
+  height: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  background: white;
+}
+
+.buttonsd button:hover {
+  background-image: linear-gradient(#4141f7,#d4cece);
+  font-weight: bold;
+}
